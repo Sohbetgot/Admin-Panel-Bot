@@ -1,3 +1,6 @@
+# Python tarapyndan döredilýän faýllar
 __pycache__/
-bot_configs/
+*.pyc
+
+# Gizlin maglumatlary saklaýan faýl
 .env
