@@ -2,10 +2,10 @@
 from telebot import TeleBot, types
 import json, os
 
-TOKEN = "BAŞ_BOT_TOKENINI_BU_YERE_YAZ"  # Baş botuň TOKEN-i
+TOKEN = "7660064921:AAHAl0-wL7q5eGgHFlyPCMgW6ow1u4cS1f4"  # Baş botuň TOKEN-i
 bot = TeleBot(TOKEN)
 
-ADMIN_PASSWORD = "admin123"
+ADMIN_PASSWORD = "ADNİOBERTİ61"
 user_states = {}  # Ulanyjy ýagdaýy: {"12345": "awaiting_token"}
 
 @bot.message_handler(commands=['start'])
