@@ -1,9 +1,11 @@
-from dotenv import load_dotenv
+import telebot
 import os
+from dotenv import load_dotenv
 
-# Bot token
-BOT_TOKEN = '7660064921:AAHAl0-wL7q5eGgHFlyPCMgW6ow1u4cS1f4'
-bot = telebot.TeleBot(BOT_TOKEN)
+load_dotenv()
+BOT_TOKEN = os.getenv("7660064921:AAHAl0-wL7q5eGgHFlyPCMgW6ow1u4cS1f4")
+
+bot = telebot.TeleBot(7660064921:AAHAl0-wL7q5eGgHFlyPCMgW6ow1u4cS1f4)
 
 ADMIN_PASSWORD = "ADNİOBERTİ61"
 user_states = {}  # Ulanyjy ýagdaýy: {"12345": "awaiting_token"}
