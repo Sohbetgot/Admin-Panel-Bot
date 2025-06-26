@@ -1,8 +1,12 @@
-# main.py
-from telebot import TeleBot, types
-import json, os
+from dotenv import load_dotenv
+import os
 
-TOKEN = "7660064921:AAHAl0-wL7q5eGgHFlyPCMgW6ow1u4cS1f4"  # Baş botuň TOKEN-i
+load_dotenv()
+TOKEN = os.getenv("BOT_TOKEN")
+print("TOKEN:", TOKEN)
+
+from telebot import TeleBot
+
 bot = TeleBot(TOKEN)
 
 ADMIN_PASSWORD = "ADNİOBERTİ61"
